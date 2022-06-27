@@ -143,4 +143,4 @@ USE_TZ = True
 STATIC_URL = os.path.join(BASE_DIR, "static/")
 MEDIA_URL = os.path.join(BASE_DIR, "media/")
 
-DEFAULT_AUTO_FIELD  = django.db.models.BigAutoField
+DEFAULT_AUTO_FIELD  = 'django.db.models.BigAutoField'
